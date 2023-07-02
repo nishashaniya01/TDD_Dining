@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [ICICI landing page]" guice-stage="DEVELOPMENT" verbose="3">
+  <test thread-count="3" parallel="tests" name="Bank Landing Page(failed)" verbose="3">
+    <classes>
+      <class name="com.tdd.tests.LoginPageTest">
+        <methods>
+          <include name="setUpDrivr"/>
+          <include name="fillMobileOrEmailID"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tdd.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Bank Landing Page(failed) -->
+</suite> <!-- Failed suite [ICICI landing page] -->

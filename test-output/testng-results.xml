@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-17T04:13:49Z" name="ICICI landing page" finished-at="2023-06-17T04:14:37Z" duration-ms="47863">
+    <groups>
+    </groups>
+    <test started-at="2023-06-17T04:13:49Z" name="Bank Landing Page" finished-at="2023-06-17T04:14:37Z" duration-ms="47863">
+      <class name="com.tdd.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUpDrivr()[pri:0, instance:com.tdd.tests.LoginPageTest@5552768b]" started-at="2023-06-17T04:13:49Z" name="setUpDrivr" finished-at="2023-06-17T04:13:58Z" duration-ms="9131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDrivr -->
+        <test-method signature="aurl()[pri:0, instance:com.tdd.tests.LoginPageTest@5552768b]" started-at="2023-06-17T04:13:58Z" name="aurl" finished-at="2023-06-17T04:14:10Z" duration-ms="12110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aurl -->
+        <test-method signature="demoExcel()[pri:0, instance:com.tdd.tests.LoginPageTest@5552768b]" started-at="2023-06-17T04:14:10Z" name="demoExcel" finished-at="2023-06-17T04:14:36Z" duration-ms="26427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tdd.tests.LoginPageTest@5552768b]" started-at="2023-06-17T04:14:36Z" name="tearDown" finished-at="2023-06-17T04:14:37Z" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tdd.tests.LoginPageTest -->
+    </test> <!-- Bank Landing Page -->
+  </suite> <!-- ICICI landing page -->
+</testng-results>
